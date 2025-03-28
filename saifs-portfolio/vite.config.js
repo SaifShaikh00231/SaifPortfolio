@@ -8,8 +8,9 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [
     vue(),
-    vueDevTools(),
+    // vueDevTools(),
   ],
+  base: '/SaifPortfolio/', // Change this to match your repository name
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
