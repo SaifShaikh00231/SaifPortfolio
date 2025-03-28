@@ -4,6 +4,7 @@
             <HeaderComponent />
             <HeroComponent @scrollToLatestWorks="scrollToLatestWorks"/>
             <LatestWorksComponent ref="latestWorks"/>
+            <Certification />
             <ContactComponent />
             <FooterComponent />
         </section>
@@ -16,6 +17,7 @@ import HeroComponent from './HeroComponent.vue';
 import LatestWorksComponent from './LatestWorksComponent.vue';
 import ContactComponent from './ContactComponent.vue';
 import FooterComponent from './FooterComponent.vue';
+import Certification from './Certification.vue';
 
 export default {
     name: 'HomeComponent',
@@ -23,6 +25,7 @@ export default {
         HeroComponent,
         HeaderComponent,
         LatestWorksComponent,
+        Certification,
         ContactComponent,
         FooterComponent
     },
