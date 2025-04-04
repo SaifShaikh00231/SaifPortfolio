@@ -55,6 +55,9 @@
 </template>
 
 <script setup>
+import ETLImage from '../assets/images/ETL.png';
+import CICDImage from '../assets/images/Cicd.png'; 
+import dataImage from '../assets/images/databricks.png'; // Import image
 
 defineProps(["isOpen"]);
 const emit = defineEmits(["close"]);
@@ -79,8 +82,11 @@ const techStack = [
   { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "ETL", icon: ETLImage },
+  { name: "CI/CD", icon: CICDImage }, 
+  { name: "Data Bricks", icon: dataImage },
+  
 ];
-
 </script>
 
 <style>
