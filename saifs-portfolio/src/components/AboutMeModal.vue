@@ -85,6 +85,7 @@ const techStack = [
   { name: "ETL", icon: ETLImage },
   { name: "CI/CD", icon: CICDImage }, 
   { name: "Data Bricks", icon: dataImage },
+  { name: "Apache Spark", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg" },
   
 ];
 </script>
