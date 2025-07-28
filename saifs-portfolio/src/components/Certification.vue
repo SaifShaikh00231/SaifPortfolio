@@ -52,6 +52,12 @@
             description: 'A full-fledged course on MERN stack to master full-stack web development.',
             isHighlighted: false,
           },
+          {
+            title: 'AWS Project',
+            provider: 'Great Learning',
+            description: 'A full-fledged course on AWS Cloud Services',
+            isHighlighted: false,
+          },
         ],
       };
     },

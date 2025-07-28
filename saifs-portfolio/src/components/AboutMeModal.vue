@@ -86,6 +86,8 @@ const techStack = [
   { name: "CI/CD", icon: CICDImage }, 
   { name: "Data Bricks", icon: dataImage },
   { name: "Apache Spark", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg" },
+  { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"  },
+  
   
 ];
 </script>
